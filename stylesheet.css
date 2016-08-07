@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+}
+
+/* ブレイクポイントをmax-width: 1000pxに指定 */
+@media () {
+  /* h1のcolorをblueに指定 */
+
+
+}
+
+/* ブレイクポイントをmax-width: 670pxに指定 */
+@media () {
+  /* h1のcolorをgreenに指定 */
+
+
+}
