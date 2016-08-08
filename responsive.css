@@ -5,3 +5,20 @@
     margin-bottom: 50px;
   }
 }
+
+/* スマホ向けレイアウト */
+
+/* ブレイクポイントが670px以下の時のメディアクエリを設定してください */
+@media (max-width: 670px) {
+  /* 「.lesson」要素のwidthを100%に指定してください */
+  .lesson {
+    width: 100%;
+  }
+
+  /* footer要素の中身を中央寄せにしてください。 */
+  footer {
+    text-align: center;
+  }
+
+
+}
