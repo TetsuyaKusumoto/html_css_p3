@@ -1,8 +1,6 @@
-/* すべての要素に対してbox-sizingをborder-boxとしてください */
 * {
- box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 
 body {
   margin: 0;
@@ -13,8 +11,11 @@ a {
   text-decoration: none;
 }
 
+.clear {
+  clear: left;
+}
+
 .container {
-  /* widthを100%にしてください */
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
