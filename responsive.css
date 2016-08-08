@@ -7,18 +7,29 @@
 }
 
 /* スマホ向けレイアウト */
-
-/* ブレイクポイントが670px以下の時のメディアクエリを設定してください */
 @media (max-width: 670px) {
-  /* 「.lesson」要素のwidthを100%に指定してください */
   .lesson {
     width: 100%;
   }
 
-  /* footer要素の中身を中央寄せにしてください。 */
   footer {
     text-align: center;
   }
 
+  /* btnクラスのwidthを100%に指定してください */
+  .btn {
+    width: 100%;
+  }
+
+  /* facebookボタンにmargin-bottom: 10px;を追加してください */
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  /* top-wrapperクラスの中身を左寄せに、padding-topを130pxに指定してください */
+  .top-wrapper {
+    text-align: left;
+    padding-top: 130px;
+  }
 
 }
